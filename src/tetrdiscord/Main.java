@@ -13,7 +13,7 @@ public class Main {
     public static Table table = tetrnormal.Main.table;
     
     public static void main(String[] args) throws LoginException, IOException, InterruptedException {
-        JDA jda = JDABuilder.createDefault("ODE1OTM3MTYxMDUyNDIyMTQ0.YDzqsg.LLtjokJOAS8uqiJPQzcAuIRhV18").setActivity(Activity.playing("being stupid")).build();
+        JDA jda = JDABuilder.createDefault(Secret.key).setActivity(Activity.playing("being stupid")).build();
         jda.addEventListener(new EventListener());
         //launches actual app because current design is
         //sending image from app
