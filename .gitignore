@@ -1,2 +1,5 @@
 Secret.java
 bin/
+..settings
+.classpath
+.project
