@@ -127,7 +127,7 @@ public class EventListener extends ListenerAdapter {
                                     eb.setColor(Table.intToColor(Main.table.getCurrentPieceInt()));
                                     eb.setAuthor("TETR v1.4", "https://www.spigotmc.org/resources/tetr.84269/", null);
                                     try {
-                                        Thread.sleep(1000);
+                                        Thread.sleep(3000);
                                     } catch (InterruptedException e) {
                                         e.printStackTrace();
                                     }
